@@ -12,7 +12,7 @@ let bc = new BlockChain()
 const tx1=new Transactions(myWalletAddress,"public key"," hello ");
 tx1.signTransaction(myKey);
 bc.addTransaction(tx1)
-const tx2 = new Transactions(myWalletAddress, "ad2", 300)
+const tx2 = new Transactions(myWalletAddress, "ad2", 500)
 tx2.signTransaction(myKey)
  bc.addTransaction(tx2);
 
