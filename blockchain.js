@@ -1,3 +1,4 @@
+'use strict';
 const crypto = require("crypto");//('crypto-js/sha256')
 const EC = require("elliptic").ec; // for generating public and private key; for saign and validate
 const ec = new EC("secp256k1");
